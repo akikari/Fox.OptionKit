@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/Fox.OptionKit.Demo/Fox.OptionKit.Demo.csproj" Id="bd17ac52-bbb5-4f88-bcb8-f3e93e179239" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Fox.OptionKit/Fox.OptionKit.csproj" Id="a0f8eafb-c426-409d-b745-a836f62d21bd" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Fox.OptionKit.Tests/Fox.OptionKit.Tests.csproj" Id="ef8fdf29-931a-4403-9cb9-513b6d0eb96a" />
+  </Folder>
+</Solution>

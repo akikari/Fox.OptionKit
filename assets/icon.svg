@@ -1,0 +1,26 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="128" height="128" fill="#1E1E1E"/>
+
+  <!-- Diagonal slash -->
+  <line x1="30" y1="98" x2="98" y2="30"
+        stroke="#6B6B6B"
+        stroke-width="8"
+        stroke-linecap="round"/>
+
+  <!-- Success checkmark (upper-left) -->
+  <path d="M28 40 L38 50 L56 28"
+        stroke="#E5E5E5"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+  <!-- Circle (lower-right) -->
+  <circle cx="92" cy="92" r="14"
+          stroke="#E5E5E5"
+          stroke-width="8"
+          fill="none"/>
+
+</svg>
