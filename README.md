@@ -272,23 +272,32 @@ The project enforces a **strict build policy** to ensure code quality:
 
 All pull requests must pass this requirement.
 
+### Code Quality Standards
+
+Fox.OptionKit follows strict coding standards:
+
+- **Comprehensive unit tests required** (xUnit + FluentAssertions)
+- **Maximum test coverage required** - Aim for 100% line and branch coverage. Tests may only be omitted if they would introduce artificial complexity (e.g., testing unreachable code paths, framework internals, or compiler-generated code). Use `[ExcludeFromCodeCoverage]` sparingly and only for justified cases.
+- **XML documentation for all public APIs** - Clear, concise documentation with examples
+- **Follow Microsoft coding conventions** - See `.github/copilot-instructions.md` for project-specific style
+
 ### Code Style
 
 - Follow the existing code style (see `.github/copilot-instructions.md`)
 - Use file-scoped namespaces
 - Enable nullable reference types
-- Add XML documentation for public APIs
-- Write unit tests for new features (xUnit + FluentAssertions)
-- Use expression-bodied members for simple properties
-- Auto-properties preferred over backing fields
+- Use expression-bodied members for simple properties/methods
+- Private fields: camelCase without underscore prefix
+- Add XML documentation decorators (98-character width)
 
 ### How to Contribute
 
 1. Fork the repository
 2. Create a feature branch from `main`
 3. Follow the coding standards in `.github/copilot-instructions.md`
-4. Ensure all tests pass (`dotnet test`)
-5. Submit a pull request
+4. Write comprehensive unit tests (aim for 100% coverage)
+5. Ensure all tests pass and build is clean (zero warnings/errors)
+6. Submit a pull request
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
