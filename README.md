@@ -5,6 +5,7 @@
 [![NuGet](https://img.shields.io/nuget/v/Fox.OptionKit.svg)](https://www.nuget.org/packages/Fox.OptionKit/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Fox.OptionKit?label=downloads&color=darkgreen)](https://www.nuget.org/packages/Fox.OptionKit/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+[![codecov](https://img.shields.io/codecov/c/github/akikari/Fox.OptionKit?color=darkgreen&label=codecov)](https://codecov.io/gh/akikari/Fox.OptionKit)
 
 A minimalist, dependency-free `Option<T>` implementation for C#. Type-safe optional values with functional programming patterns.
 
